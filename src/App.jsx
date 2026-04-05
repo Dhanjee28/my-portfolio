@@ -599,7 +599,7 @@ const CSS = `
 // ─── Data ─────────────────────────────────────────────────────────────────────
 const TYPING_STRINGS = [
   "Full-Stack Developer",
-  "React Enthusiast",
+  "Tech Enthusiast",
   "SQL Specialist",
   "Backend Architect",
   "CS Graduate @ KIIT",
