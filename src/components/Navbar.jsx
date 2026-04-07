@@ -6,7 +6,7 @@ export default function Navbar({ dark, setDark, menuOpen, setMenuOpen }) {
   return (
     <>
       <nav className="nav">
-        <div className="nav-logo">DT<span>.</span></div>
+        <div className="nav-logo">DJ<span>.</span></div>
 
         <ul className="nav-links">
           {NAV_LINKS.map((l) => (
