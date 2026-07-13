@@ -572,18 +572,19 @@ section:not(.hero-section),
 .project-desc,
 .project-details,
 .note-body,
-.contact-panel p,
-.case-card p,
-.case-card li {
+.contact-panel p {
   color: var(--muted-light);
 }
 
 .light-mode .project-desc,
 .light-mode .project-details,
 .light-mode .note-body,
-.light-mode .contact-panel p,
-.light-mode .case-card p,
-.light-mode .case-card li {
+.light-mode .contact-panel p {
+  color: var(--muted-dark);
+}
+
+.case-card p,
+.case-card li {
   color: var(--muted-dark);
 }
 

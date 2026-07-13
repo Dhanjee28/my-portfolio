@@ -114,7 +114,7 @@ export const projects: Project[] = [
       "Seat-booking transactions designed to reduce double-allocation risk",
       "30+ unit tests covering auth flows, booking logic, and edge cases",
     ],
-    image: "/theme/railinfo.png",
+    image: "/theme/railinfo-simple.png",
     github: "https://github.com/Dhanjee28/RailInfo",
     caseStudy: "/case-studies/railinfo",
     featured: true,
@@ -135,7 +135,7 @@ export const projects: Project[] = [
       "Normalized MySQL schema managed through Sequelize models",
       "Separated routes, controllers, and data access for maintainability",
     ],
-    image: "/theme/employee-management.png",
+    image: "/theme/employee-management-simple.png",
     github: "https://github.com/Dhanjee28/Employee_Direct-",
   },
   {
