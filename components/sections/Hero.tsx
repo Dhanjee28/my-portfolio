@@ -4,6 +4,11 @@ export function Hero() {
   return (
     <section className="hero-section" id="top" aria-labelledby="hero-title">
       <div className="about-section">
+        <div className="hero-orbit" aria-hidden="true">
+          <span className="orbit-node orbit-node-one" />
+          <span className="orbit-node orbit-node-two" />
+          <span className="orbit-node orbit-node-three" />
+        </div>
         <div className="image-wrapper" aria-hidden="true">
           <div className="hero-avatar">{profile.initials}</div>
         </div>
@@ -23,7 +28,7 @@ export function Hero() {
           <h1 className="hero-name" id="hero-title">
             {profile.firstName}
             <br />
-            {profile.lastName}
+            <span>{profile.lastName}</span>
           </h1>
           <p className="hero-subtitle">{typingLine}</p>
 

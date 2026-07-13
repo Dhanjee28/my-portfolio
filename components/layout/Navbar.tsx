@@ -12,7 +12,7 @@ const navItems = [
 
 export function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [mode, setMode] = useState<"dark" | "light">("dark");
+  const [mode, setMode] = useState<"dark" | "light">("light");
 
   useEffect(() => {
     document.body.classList.toggle("dark-mode", mode === "dark");
@@ -22,6 +22,11 @@ export function Navbar() {
   return (
     <>
       <nav className="nav" aria-label="Primary navigation">
+        <a className="nav-brand" href="/#top" aria-label="Dhanjee Tiwari, home">
+          <span className="nav-brand-mark">DT</span>
+
+        </a>
+
         <button
           className="nav-icon-button"
           type="button"
