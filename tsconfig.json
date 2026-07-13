@@ -36,8 +36,6 @@
     ".next/dev/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules",
-    "_source_portfolio_v3",
-    "_theme_react_portfolio_template"
+    "node_modules"
   ]
 }
