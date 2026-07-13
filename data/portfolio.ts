@@ -26,7 +26,7 @@ export type OpenSourceContribution = {
 export const profile = {
   firstName: "Dhanjee",
   lastName: "Tiwari",
-  initials: "DT",
+  initials: "DJ",
   tag: "Open to backend and product engineering roles",
   title: "Backend Engineer",
   location: "Hyderabad, India",

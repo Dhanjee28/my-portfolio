@@ -23,7 +23,7 @@ export function Navbar() {
     <>
       <nav className="nav" aria-label="Primary navigation">
         <a className="nav-brand" href="/#top" aria-label="Dhanjee Tiwari, home">
-          <span className="nav-brand-mark">DT</span>
+          <span className="nav-brand-mark">DJ</span>
 
         </a>
 
